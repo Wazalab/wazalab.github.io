@@ -16,8 +16,9 @@
 .share-links a {
   color: $header-color;
   font-size: $h3;
-  font-weight: $header-font-weight;
+  font-weight: bold; 
   background-image: none;
+
 }
 
 .site-header .site-title {
@@ -26,6 +27,7 @@
 
 .site-header nav a {
   color: $nav-color;
+  font-size: 13px;
 }
 
 .site-header nav a:hover,

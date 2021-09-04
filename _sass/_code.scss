@@ -27,6 +27,8 @@ pre {
   overflow-x: scroll;
   margin-bottom: 0.88em;
   background-color: $pre-background-color;
+  color: $pre-foreground-color;
+  font-size: 13px;
 }
 
 .highlight {
