@@ -4,7 +4,7 @@ title: "[Rails] すべてのbooleanカラムの値を変更する方法"
 date: 2021-11-22 06:34 +0000
 ---
 
-## config.active_record.sqlite3.represent_boolean_as_integer = true
+## config.active_record.sqlite3.represent_boolean_as_integer = trueがデフォルトに。
 
 Rails6にアップグレードしたらSQliteのデフォルトboolean値の取扱い方が変わったみたい。
 なにやら全ての値を変更せねばならず、大変だと思ったので自動化するスクリプトを書いた。
@@ -21,7 +21,6 @@ models.each{|m|
     end
   }
 }
-
 ```
 
 
