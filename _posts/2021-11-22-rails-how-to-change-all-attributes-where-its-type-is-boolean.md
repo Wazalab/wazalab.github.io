@@ -9,7 +9,10 @@ tags:
   - rails
 ---
 
-## config.active_record.sqlite3.represent_boolean_as_integer = trueがデフォルトに。
+```
+DEPRECATION WARNING: `.represent_boolean_as_integer=` is now always true, so setting this is deprecated and will be removed in Rails 6.1
+# Due to config.active_record.sqlite3.represent_boolean_as_integer = true
+```
 
 Rails6にアップグレードしたらSQliteのデフォルトboolean値の取扱い方が変わったみたい。
 なにやら全ての値を変更せねばならず、大変だと思ったので自動化するスクリプトを書いた。
