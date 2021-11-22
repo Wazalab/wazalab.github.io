@@ -2,6 +2,11 @@
 layout: post
 title: "[Rails] すべてのbooleanカラムの値を変更する方法"
 date: 2021-11-22 06:34 +0000
+categories:
+  - IT
+  - Linux  - Programming
+tags:  
+  - rails
 ---
 
 ## config.active_record.sqlite3.represent_boolean_as_integer = trueがデフォルトに。
