@@ -14,11 +14,11 @@ code {
   line-height: 1.4;
 }
 
-p {
+li,p {
   code {
     background-color: #333;
     border-radius: 3px;
-    padding: .25em .5em;
+    padding: .05em .15em;
   }
 }
 
@@ -37,7 +37,7 @@ pre {
 }
 
 .highlight .p {
-  font-size: 1.125rem;
+  //font-size: 1.125rem;
   line-height: 1;
 }
 
