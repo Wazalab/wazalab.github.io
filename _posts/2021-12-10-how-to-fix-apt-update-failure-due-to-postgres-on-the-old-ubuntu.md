@@ -13,10 +13,10 @@ Ubuntu14のサーバがあり、Certbotが下記のエラーで更新できな�
 
 ```shell
 Plugins selected: Authenticator nginx, Installer nginx                                                                                              
-Attempting to renew cert (bi.gsacademy.com) from /etc/letsencrypt/renewal/bi.gsacademy.com.conf produced an unexpected error: ("bad handshake: Error
+Attempting to renew cert (xxxxxxx.com) from /etc/letsencrypt/renewal/bi.gsacademy.com.conf produced an unexpected error: ("bad handshake: Error
 ([('SSL routines', 'SSL3_GET_SERVER_CERTIFICATE', 'certificate verify failed')],)",). Skipping.                                                     
 All renewal attempts failed. The following certs could not be renewed:                                                                              
-  /etc/letsencrypt/live/bi.gsacademy.com/fullchain.pem (failure)                                                                                                                                                       
+  /etc/letsencrypt/live/xxxxxxy.com/fullchain.pem (failure)                                                                                                                                                       
 ```
 
 単純にバージョンが古いと思い、`apt update`だがしかし、Postgresのところで止まる。。
