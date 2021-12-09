@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "apt updateができない(postgresのところで止まる)ときのと対処法"
+title: "apt updateができない(postgresのところで止まる)ときの対処法"
 date: 2021-12-10 06:34 +0000
 categories:
   - IT
